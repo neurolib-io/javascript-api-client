@@ -1,0 +1,33 @@
+{
+  "name": "neurolib-javascript-api-client",
+  "authors": [
+    "Neurolib <tech@neurolib.io> (https://www.neurolib.io)"
+  ],
+  "description": "Client-side js library for easy use of the Neurolib recommendation API",
+  "main": "./src/index.js",
+  "keywords": [
+    "neurolib",
+    "recommendation engine",
+    "recommender engine",
+    "recommender as a service",
+    "machine learning",
+    "API",
+    "SDK"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/neurolib-io/javascript-api-client#readme",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "examples"
+  ],
+  "devDependencies": {
+    "qunit": "^2.7.0"
+  },
+  "dependencies": {
+    "jsSHA": "jssha#^2.3.1"
+  }
+}
